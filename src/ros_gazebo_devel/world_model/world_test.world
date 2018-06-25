@@ -125,6 +125,11 @@
             <resolution>0.02</resolution>
           </range>
         </ray>
+<!--
+        <plugin name="gpu_laser" filename="libgazebo_ros_gpu_laser.so">
+          <topicName>/scan</topicName>
+        </plugin>
+-->
       </sensor>
     </link>
     <link name="left_front_wheel">
@@ -168,7 +173,7 @@
     </link>
 -->
     <link name="right_front_wheel">
-      <pose>0 -.55 -.25 0 1.5707 1.5707</pose>
+      <pose>0 -.55 -.25 0 -1.5707 -1.5707</pose>
       <collision name="collision">
         <geometry>
           <cylinder>

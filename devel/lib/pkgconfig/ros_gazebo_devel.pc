@@ -1,0 +1,8 @@
+prefix=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/devel
+
+Name: ros_gazebo_devel
+Description: Description of ros_gazebo_devel
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/james/Desktop/gazebo_devel/ros_gazebo_devel/devel/lib 
+Requires: 

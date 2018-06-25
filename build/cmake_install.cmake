@@ -117,6 +117,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/gtest/cmake_install.cmake")
+  include("/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/ros_gazebo_devel/cmake_install.cmake")
 
 endif()
 
