@@ -4,6 +4,7 @@
   <node pkg="ros_gazebo_devel" type="gazebo_cmd_vel" name="gazebo_cmd_vel" output="screen"/>
   <node pkg="ros_gazebo_devel" type="gazebopose_to_odom" name="gazebopose_to_odom" output="screen"/>
   <node pkg="ros_gazebo_devel" type="map_broadcaster" name="map_broadcaster" output="screen"/>
+  <node pkg="ros_gazebo_devel" type="laser_broadcaster" name="laser_broadcaster" output="screen"/>
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
     <rosparam file="$(find ros_gazebo_devel)/launcher/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find ros_gazebo_devel)/launcher/global_costmap_params.yaml" command="load" />

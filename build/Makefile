@@ -686,6 +686,19 @@ sensor_msgs_generate_messages_lisp/fast:
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named laser_broadcaster
+
+# Build rule for target.
+laser_broadcaster: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 laser_broadcaster
+.PHONY : laser_broadcaster
+
+# fast build rule for target.
+laser_broadcaster/fast:
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build
+.PHONY : laser_broadcaster/fast
+
+#=============================================================================
 # Target rules for targets named ros_gazebo_devel_generate_messages_eus
 
 # Build rule for target.
@@ -1375,6 +1388,7 @@ help:
 	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... gazebo_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... laser_broadcaster"
 	@echo "... ros_gazebo_devel_generate_messages_eus"
 	@echo "... ros_gazebo_devel_generate_messages"
 	@echo "... std_msgs_generate_messages_lisp"

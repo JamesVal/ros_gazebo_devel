@@ -196,6 +196,9 @@ target_link_libraries(gazebo_move_one_meter ${catkin_LIBRARIES})
 add_executable(map_broadcaster src/map_broadcaster.cpp)
 target_link_libraries(map_broadcaster ${catkin_LIBRARIES})
 
+add_executable(laser_broadcaster src/laser_broadcaster.cpp)
+target_link_libraries(laser_broadcaster ${catkin_LIBRARIES})
+
 add_executable(gazebo_cmd_vel src/gazebo_cmd_vel.cpp)
 target_link_libraries(gazebo_cmd_vel ${catkin_LIBRARIES})
 

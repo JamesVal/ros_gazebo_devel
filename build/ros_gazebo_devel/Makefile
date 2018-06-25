@@ -631,6 +631,21 @@ sensor_msgs_generate_messages_lisp/fast:
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
+ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/rule:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f CMakeFiles/Makefile2 ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/rule
+.PHONY : ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/rule
+
+# Convenience name for target.
+laser_broadcaster: ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/rule
+
+.PHONY : laser_broadcaster
+
+# fast build rule for target.
+laser_broadcaster/fast:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build
+.PHONY : laser_broadcaster/fast
+
+# Convenience name for target.
 ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/rule:
 	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f CMakeFiles/Makefile2 ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/rule
 .PHONY : ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/rule
@@ -1446,6 +1461,33 @@ src/gazebopose_to_odom.cpp.s:
 	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/build.make ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/src/gazebopose_to_odom.cpp.s
 .PHONY : src/gazebopose_to_odom.cpp.s
 
+src/laser_broadcaster.o: src/laser_broadcaster.cpp.o
+
+.PHONY : src/laser_broadcaster.o
+
+# target to build an object file
+src/laser_broadcaster.cpp.o:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/src/laser_broadcaster.cpp.o
+.PHONY : src/laser_broadcaster.cpp.o
+
+src/laser_broadcaster.i: src/laser_broadcaster.cpp.i
+
+.PHONY : src/laser_broadcaster.i
+
+# target to preprocess a source file
+src/laser_broadcaster.cpp.i:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/src/laser_broadcaster.cpp.i
+.PHONY : src/laser_broadcaster.cpp.i
+
+src/laser_broadcaster.s: src/laser_broadcaster.cpp.s
+
+.PHONY : src/laser_broadcaster.s
+
+# target to generate assembly for a file
+src/laser_broadcaster.cpp.s:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/src/laser_broadcaster.cpp.s
+.PHONY : src/laser_broadcaster.cpp.s
+
 src/map_broadcaster.o: src/map_broadcaster.cpp.o
 
 .PHONY : src/map_broadcaster.o
@@ -1514,6 +1556,7 @@ help:
 	@echo "... gazebo_msgs_generate_messages_lisp"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... install"
+	@echo "... laser_broadcaster"
 	@echo "... ros_gazebo_devel_generate_messages_eus"
 	@echo "... ros_gazebo_devel_generate_messages"
 	@echo "... std_msgs_generate_messages_lisp"
@@ -1575,6 +1618,9 @@ help:
 	@echo "... src/gazebopose_to_odom.o"
 	@echo "... src/gazebopose_to_odom.i"
 	@echo "... src/gazebopose_to_odom.s"
+	@echo "... src/laser_broadcaster.o"
+	@echo "... src/laser_broadcaster.i"
+	@echo "... src/laser_broadcaster.s"
 	@echo "... src/map_broadcaster.o"
 	@echo "... src/map_broadcaster.i"
 	@echo "... src/map_broadcaster.s"
