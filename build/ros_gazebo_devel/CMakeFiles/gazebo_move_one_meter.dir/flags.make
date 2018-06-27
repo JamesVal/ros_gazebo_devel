@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ros_gazebo_devel\"
 
-CXX_INCLUDES = -I/home/james/Desktop/gazebo_devel/ros_gazebo_devel/src/ros_gazebo_devel/include -I/opt/ros/lunar/include -I/opt/ros/lunar/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/james/Desktop/gazebo_devel/ros_gazebo_devel/src/ros_gazebo_devel/include -I/opt/ros/lunar/include -I/opt/ros/lunar/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

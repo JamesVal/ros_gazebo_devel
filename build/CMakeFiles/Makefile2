@@ -246,7 +246,7 @@ gtest/preinstall: gtest/gtest/preinstall
 gtest/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=7,8,9 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=9,10,11 "Built target gmock"
 .PHONY : gtest/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +278,7 @@ clean: gtest/CMakeFiles/gmock.dir/clean
 gtest/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=10,11,12,13 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=12,13,14,15 "Built target gmock_main"
 .PHONY : gtest/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -329,7 +329,7 @@ gtest/gtest/preinstall:
 gtest/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=14,15 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=16,17 "Built target gtest"
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -361,7 +361,7 @@ clean: gtest/gtest/CMakeFiles/gtest.dir/clean
 gtest/gtest/CMakeFiles/gtest_main.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=16,17 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=18,19 "Built target gtest_main"
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,6 +390,8 @@ clean: gtest/gtest/CMakeFiles/gtest_main.dir/clean
 # Directory level rules for directory ros_gazebo_devel
 
 # Convenience name for "all" pass in the directory.
+ros_gazebo_devel/all: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/all
+ros_gazebo_devel/all: ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/all
 ros_gazebo_devel/all: ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/all
 ros_gazebo_devel/all: ros_gazebo_devel/CMakeFiles/map_broadcaster.dir/all
 ros_gazebo_devel/all: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/all
@@ -400,6 +402,8 @@ ros_gazebo_devel/all: ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/all
 .PHONY : ros_gazebo_devel/all
 
 # Convenience name for "clean" pass in the directory.
+ros_gazebo_devel/clean: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/clean
+ros_gazebo_devel/clean: ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/clean
 ros_gazebo_devel/clean: ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/clean
 ros_gazebo_devel/clean: ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_genpy.dir/clean
 ros_gazebo_devel/clean: ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_genlisp.dir/clean
@@ -490,13 +494,87 @@ ros_gazebo_devel/preinstall:
 .PHONY : ros_gazebo_devel/preinstall
 
 #=============================================================================
+# Target rules for target ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir
+
+# All Build rule for target.
+ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/all:
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/depend
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=3,4 "Built target gazebo_cmd_vel_reset"
+.PHONY : ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/all
+
+# Include target in all.
+all: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles 0
+.PHONY : ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/rule
+
+# Convenience name for target.
+gazebo_cmd_vel_reset: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/rule
+
+.PHONY : gazebo_cmd_vel_reset
+
+# clean rule for target.
+ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/clean:
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/clean
+.PHONY : ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/clean
+
+# clean rule for target.
+clean: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir
+
+# All Build rule for target.
+ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/all:
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build.make ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/depend
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build.make ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=22,23 "Built target laser_to_pointcloud"
+.PHONY : ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/all
+
+# Include target in all.
+all: ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles 0
+.PHONY : ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/rule
+
+# Convenience name for target.
+laser_to_pointcloud: ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/rule
+
+.PHONY : laser_to_pointcloud
+
+# clean rule for target.
+ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/clean:
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build.make ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/clean
+.PHONY : ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/clean
+
+# clean rule for target.
+clean: ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir
 
 # All Build rule for target.
 ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/all:
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/depend
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=3,4 "Built target gazebo_move_one_meter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=5,6 "Built target gazebo_move_one_meter"
 .PHONY : ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/all
 
 # Include target in all.
@@ -1145,7 +1223,7 @@ clean: ros_gazebo_devel/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clea
 ros_gazebo_devel/CMakeFiles/map_broadcaster.dir/all:
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/map_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/map_broadcaster.dir/depend
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/map_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/map_broadcaster.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=20,21 "Built target map_broadcaster"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=24,25 "Built target map_broadcaster"
 .PHONY : ros_gazebo_devel/CMakeFiles/map_broadcaster.dir/all
 
 # Include target in all.
@@ -1509,7 +1587,7 @@ clean: ros_gazebo_devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/all:
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/depend
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=18,19 "Built target laser_broadcaster"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=20,21 "Built target laser_broadcaster"
 .PHONY : ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/all
 
 # Include target in all.
@@ -1548,7 +1626,7 @@ ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/all: ros_
 ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/all: ros_gazebo_devel/CMakeFiles/nav_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/build.make ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/depend
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/build.make ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=22 "Built target ros_gazebo_devel_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=26 "Built target ros_gazebo_devel_generate_messages_eus"
 .PHONY : ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1879,7 +1957,7 @@ clean: ros_gazebo_devel/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/all:
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/build.make ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/depend
 	$(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/build.make ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=5,6 "Built target gazebopose_to_odom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/CMakeFiles --progress-num=7,8 "Built target gazebopose_to_odom"
 .PHONY : ros_gazebo_devel/CMakeFiles/gazebopose_to_odom.dir/all
 
 # Include target in all.

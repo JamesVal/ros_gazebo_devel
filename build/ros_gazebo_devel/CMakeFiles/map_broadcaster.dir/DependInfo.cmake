@@ -20,6 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/james/Desktop/gazebo_devel/ros_gazebo_devel/src/ros_gazebo_devel/include"
   "/opt/ros/lunar/include"
   "/opt/ros/lunar/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/eigen3"
   )
 
 # Targets to which this target links.

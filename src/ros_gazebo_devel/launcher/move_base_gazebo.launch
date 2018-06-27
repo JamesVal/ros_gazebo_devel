@@ -2,12 +2,23 @@
   <node pkg="map_server" type="map_server" name="map_server" args="$(find ros_gazebo_devel)/maps/testmapturtlewall.yaml"/>
 <!--  <node pkg="gazebo_ros" type="gazebo" name="gazebo"/> -->
   <node pkg="ros_gazebo_devel" type="gazebo_cmd_vel" name="gazebo_cmd_vel" output="screen"/>
+  <node pkg="ros_gazebo_devel" type="gazebo_cmd_vel_reset" name="gazebo_cmd_vel_reset" output="screen"/>
   <node pkg="ros_gazebo_devel" type="gazebopose_to_odom" name="gazebopose_to_odom" output="screen"/>
-  <node pkg="ros_gazebo_devel" type="map_broadcaster" name="map_broadcaster" output="screen"/>
-  <node pkg="ros_gazebo_devel" type="laser_broadcaster" name="laser_broadcaster" output="screen"/>
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
     <rosparam file="$(find ros_gazebo_devel)/launcher/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find ros_gazebo_devel)/launcher/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find ros_gazebo_devel)/launcher/base_local_planner_params.yaml" command="load" /> 
   </node>
+  <node pkg="ros_gazebo_devel" type="map_broadcaster" name="map_broadcaster" output="screen"/>
+  <node pkg="ros_gazebo_devel" type="laser_broadcaster" name="laser_broadcaster" output="screen"/>
+  <node pkg="ros_gazebo_devel" type="laser_to_pointcloud" name="laser_to_pointcloud" output="screen"/>
+  <node pkg="laser_filters" type="scan_to_scan_filter_chain" name="laser_filter">
+    <rosparam command="load" file="$(find ros_gazebo_devel)/launcher/laser_config.yaml" />
+    <remap from="scan" to="scan_raw"/>
+  </node>
+<!--
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping"> 
+    <remap from="scan" to="scan_filtered"/>
+  </node>
+-->
 </launch>

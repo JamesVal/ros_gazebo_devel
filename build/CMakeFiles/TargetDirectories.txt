@@ -29,6 +29,8 @@
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/gtest/gtest/CMakeFiles/install/strip.dir
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/gtest/gtest/CMakeFiles/install/local.dir
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/ros_gazebo_devel/CMakeFiles/edit_cache.dir
+/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir
+/home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_genpy.dir
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build/ros_gazebo_devel/CMakeFiles/ros_gazebo_devel_genlisp.dir

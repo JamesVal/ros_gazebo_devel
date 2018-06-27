@@ -166,6 +166,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/rule:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f CMakeFiles/Makefile2 ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/rule
+.PHONY : ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/rule
+
+# Convenience name for target.
+gazebo_cmd_vel_reset: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/rule
+
+.PHONY : gazebo_cmd_vel_reset
+
+# fast build rule for target.
+gazebo_cmd_vel_reset/fast:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build
+.PHONY : gazebo_cmd_vel_reset/fast
+
+# Convenience name for target.
+ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/rule:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f CMakeFiles/Makefile2 ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/rule
+.PHONY : ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/rule
+
+# Convenience name for target.
+laser_to_pointcloud: ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/rule
+
+.PHONY : laser_to_pointcloud
+
+# fast build rule for target.
+laser_to_pointcloud/fast:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build.make ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build
+.PHONY : laser_to_pointcloud/fast
+
+# Convenience name for target.
 ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/rule:
 	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f CMakeFiles/Makefile2 ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/rule
 .PHONY : ros_gazebo_devel/CMakeFiles/gazebo_move_one_meter.dir/rule
@@ -1386,6 +1416,7 @@ src/gazebo_cmd_vel.o: src/gazebo_cmd_vel.cpp.o
 
 # target to build an object file
 src/gazebo_cmd_vel.cpp.o:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/src/gazebo_cmd_vel.cpp.o
 	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/src/gazebo_cmd_vel.cpp.o
 .PHONY : src/gazebo_cmd_vel.cpp.o
 
@@ -1395,6 +1426,7 @@ src/gazebo_cmd_vel.i: src/gazebo_cmd_vel.cpp.i
 
 # target to preprocess a source file
 src/gazebo_cmd_vel.cpp.i:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/src/gazebo_cmd_vel.cpp.i
 	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/src/gazebo_cmd_vel.cpp.i
 .PHONY : src/gazebo_cmd_vel.cpp.i
 
@@ -1404,6 +1436,7 @@ src/gazebo_cmd_vel.s: src/gazebo_cmd_vel.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_cmd_vel.cpp.s:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/src/gazebo_cmd_vel.cpp.s
 	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/src/gazebo_cmd_vel.cpp.s
 .PHONY : src/gazebo_cmd_vel.cpp.s
 
@@ -1488,6 +1521,33 @@ src/laser_broadcaster.cpp.s:
 	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/build.make ros_gazebo_devel/CMakeFiles/laser_broadcaster.dir/src/laser_broadcaster.cpp.s
 .PHONY : src/laser_broadcaster.cpp.s
 
+src/laser_to_pointcloud.o: src/laser_to_pointcloud.cpp.o
+
+.PHONY : src/laser_to_pointcloud.o
+
+# target to build an object file
+src/laser_to_pointcloud.cpp.o:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build.make ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.o
+.PHONY : src/laser_to_pointcloud.cpp.o
+
+src/laser_to_pointcloud.i: src/laser_to_pointcloud.cpp.i
+
+.PHONY : src/laser_to_pointcloud.i
+
+# target to preprocess a source file
+src/laser_to_pointcloud.cpp.i:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build.make ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.i
+.PHONY : src/laser_to_pointcloud.cpp.i
+
+src/laser_to_pointcloud.s: src/laser_to_pointcloud.cpp.s
+
+.PHONY : src/laser_to_pointcloud.s
+
+# target to generate assembly for a file
+src/laser_to_pointcloud.cpp.s:
+	cd /home/james/Desktop/gazebo_devel/ros_gazebo_devel/build && $(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build.make ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/src/laser_to_pointcloud.cpp.s
+.PHONY : src/laser_to_pointcloud.cpp.s
+
 src/map_broadcaster.o: src/map_broadcaster.cpp.o
 
 .PHONY : src/map_broadcaster.o
@@ -1522,6 +1582,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... gazebo_cmd_vel_reset"
+	@echo "... laser_to_pointcloud"
 	@echo "... gazebo_move_one_meter"
 	@echo "... ros_gazebo_devel_genpy"
 	@echo "... ros_gazebo_devel_genlisp"
@@ -1621,6 +1683,9 @@ help:
 	@echo "... src/laser_broadcaster.o"
 	@echo "... src/laser_broadcaster.i"
 	@echo "... src/laser_broadcaster.s"
+	@echo "... src/laser_to_pointcloud.o"
+	@echo "... src/laser_to_pointcloud.i"
+	@echo "... src/laser_to_pointcloud.s"
 	@echo "... src/map_broadcaster.o"
 	@echo "... src/map_broadcaster.i"
 	@echo "... src/map_broadcaster.s"

@@ -126,8 +126,8 @@
           </range>
         </ray>
         <plugin name="robot_laser_plugin" filename="libgazebo_ros_laser.so">
-          <topicName>/scan</topicName>
-          <frameName>base_laser</frameName>
+          <topicName>/scan_raw</topicName>
+          <frameName>laser_sensor</frameName>
         </plugin>
       </sensor>
     </link>
@@ -217,8 +217,8 @@
       <axis>
         <xyz>0 0 1</xyz>
         <limit>
-          <lower>-10000000000000000</lower>
-          <upper>10000000000000000</upper>
+          <lower>0</lower>
+          <upper>0</upper>
         </limit>
       </axis>
     </joint>

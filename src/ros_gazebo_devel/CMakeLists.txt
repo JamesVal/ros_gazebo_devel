@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
  gazebo_msgs 
  genmsg
  geometry_msgs
+ laser_geometry
  nav_msgs
  tf
 )
@@ -199,8 +200,14 @@ target_link_libraries(map_broadcaster ${catkin_LIBRARIES})
 add_executable(laser_broadcaster src/laser_broadcaster.cpp)
 target_link_libraries(laser_broadcaster ${catkin_LIBRARIES})
 
+add_executable(laser_to_pointcloud src/laser_to_pointcloud.cpp)
+target_link_libraries(laser_to_pointcloud ${catkin_LIBRARIES})
+
 add_executable(gazebo_cmd_vel src/gazebo_cmd_vel.cpp)
 target_link_libraries(gazebo_cmd_vel ${catkin_LIBRARIES})
+
+add_executable(gazebo_cmd_vel_reset src/gazebo_cmd_vel.cpp)
+target_link_libraries(gazebo_cmd_vel_reset ${catkin_LIBRARIES})
 
 add_executable(gazebopose_to_odom src/gazebopose_to_odom.cpp)
 target_link_libraries(gazebopose_to_odom ${catkin_LIBRARIES})

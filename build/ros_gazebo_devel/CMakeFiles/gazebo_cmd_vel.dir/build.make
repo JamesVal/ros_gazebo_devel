@@ -90,6 +90,7 @@ gazebo_cmd_vel_EXTERNAL_OBJECTS =
 
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/devel/lib/ros_gazebo_devel/gazebo_cmd_vel: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/src/gazebo_cmd_vel.cpp.o
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/devel/lib/ros_gazebo_devel/gazebo_cmd_vel: ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel.dir/build.make
+/home/james/Desktop/gazebo_devel/ros_gazebo_devel/devel/lib/ros_gazebo_devel/gazebo_cmd_vel: /opt/ros/lunar/lib/liblaser_geometry.so
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/devel/lib/ros_gazebo_devel/gazebo_cmd_vel: /opt/ros/lunar/lib/libtf.so
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/devel/lib/ros_gazebo_devel/gazebo_cmd_vel: /opt/ros/lunar/lib/libtf2_ros.so
 /home/james/Desktop/gazebo_devel/ros_gazebo_devel/devel/lib/ros_gazebo_devel/gazebo_cmd_vel: /opt/ros/lunar/lib/libactionlib.so

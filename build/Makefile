@@ -283,6 +283,32 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named gazebo_cmd_vel_reset
+
+# Build rule for target.
+gazebo_cmd_vel_reset: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_cmd_vel_reset
+.PHONY : gazebo_cmd_vel_reset
+
+# fast build rule for target.
+gazebo_cmd_vel_reset/fast:
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build.make ros_gazebo_devel/CMakeFiles/gazebo_cmd_vel_reset.dir/build
+.PHONY : gazebo_cmd_vel_reset/fast
+
+#=============================================================================
+# Target rules for targets named laser_to_pointcloud
+
+# Build rule for target.
+laser_to_pointcloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 laser_to_pointcloud
+.PHONY : laser_to_pointcloud
+
+# fast build rule for target.
+laser_to_pointcloud/fast:
+	$(MAKE) -f ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build.make ros_gazebo_devel/CMakeFiles/laser_to_pointcloud.dir/build
+.PHONY : laser_to_pointcloud/fast
+
+#=============================================================================
 # Target rules for targets named gazebo_move_one_meter
 
 # Build rule for target.
@@ -1357,6 +1383,8 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... gazebo_cmd_vel_reset"
+	@echo "... laser_to_pointcloud"
 	@echo "... gazebo_move_one_meter"
 	@echo "... ros_gazebo_devel_genpy"
 	@echo "... ros_gazebo_devel_genlisp"
