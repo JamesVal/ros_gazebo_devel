@@ -10,6 +10,7 @@
     <rosparam file="$(find ros_gazebo_devel)/launcher/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find ros_gazebo_devel)/launcher/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find ros_gazebo_devel)/launcher/base_local_planner_params.yaml" command="load" /> 
+    <rosparam file="$(find ros_gazebo_devel)/launcher/planner.yaml" command="load" /> 
   </node>
   <node pkg="ros_gazebo_devel" type="map_broadcaster" name="map_broadcaster" output="screen"/>
   <node pkg="ros_gazebo_devel" type="laser_broadcaster" name="laser_broadcaster" output="screen"/>
@@ -23,4 +24,5 @@
     <remap from="scan" to="scan_filtered"/>
   </node>
 -->
+ <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ros_gazebo_devel)/launcher/devel.rviz"/>
 </launch>

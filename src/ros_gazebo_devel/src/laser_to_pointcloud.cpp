@@ -17,7 +17,7 @@ void laserCallback(const sensor_msgs::LaserScan::ConstPtr& msg)
 
   try {
     ros::Time now = ros::Time::now();
-    listener.waitForTransform("odom", "laser_sensor", now, ros::Duration(10.0));
+    listener.waitForTransform("odom", "laser_sensor", now, ros::Duration(1.0));
     projector.transformLaserScanToPointCloud("odom",*msg, cloud_odom,listener);
     projector.projectLaser(*msg, cloud);
   } catch (tf::TransformException ex) {
